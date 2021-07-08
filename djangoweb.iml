@@ -19,6 +19,7 @@
       <sourceFolder url="file://$MODULE_DIR$/ch99/bookmark" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/ch99/mysite" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/ch99/static" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/ch99/photo" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
