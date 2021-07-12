@@ -15,14 +15,7 @@
   <br><br>
   
   <div>
-    <ul>
-      {% for post in object_list %}
-      <li class="h5">
-        {{ post.modify_dt|date:"Y-m-d" }}&emsp;
-        <a href="{{ post.get_absolute_url }}"><strong>{{ post.title }}</strong></a>
-      </li>
-      {% endfor %}
-    </ul>
+    {% include "blog/post_archive_snippet.html" %}
   </div>
 
 {% endblock %}

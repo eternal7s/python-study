@@ -47,4 +47,10 @@ urlpatterns = [
 
     # Example: /blog/99/delete/
     path('<int:pk>/delete/', views.PostDeleteView.as_view(), name="delete",),
+
+    # Example: /blog/test/
+    # path('test/', views.TestPostLV.as_view(), name="test_post"),
+
+    # Example: /blog/test/word
+    path('test/<str:word>/', views.TestPostLV.as_view(), name="test_post")
 ]
